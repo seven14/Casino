@@ -11,6 +11,7 @@ Everything in the game is generated in code: the WebGPU-rendered table and cards
 **Online:** open the GitHub Pages link for this repository.
 
 **Locally:** download `index.html` and open it in Chrome or Edge.
+Try online: [Link Text](https://seven14.github.io/Casino)
 
 The game needs a browser with **WebGPU**. It was developed and tested on Windows 11 with Chrome; recent Chrome and Edge on desktop and Android support it. Browsers without WebGPU show a message instead of the table.
 
