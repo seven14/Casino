@@ -4,7 +4,7 @@ The classic fishing card game **Casino** (also spelled *Cassino*), for 2–4 pla
 
 Everything in the game is generated in code: the WebGPU-rendered table and cards, and the Web Audio sound effects. There are no image, font or audio files, no libraries, and no build step needed to play.
 
-![Casino table](screenshot.png)
+![Casino table](screenshot.jpg)
 
 ## Play
 
