@@ -1,10 +1,10 @@
 # Casino
 
-The classic fishing card game **Casino** (also spelled *Cassino*), for 2–4 players against computer opponents. It runs in a browser as a single self-contained `index.html` of about 133 KB (about 48 KB gzipped).
+The classic fishing card game **Casino** (also spelled *Cassino*), for 2–4 players against computer opponents. It runs in a browser as a single self-contained `index.html` of about 139 KB (about 51 KB gzipped).
 
 Everything in the game is generated in code: the WebGPU-rendered table and cards, and the Web Audio sound effects. There are no image, font or audio files, no libraries, and no build step needed to play.
 
-![Casino table](screenshot.jpg)
+![Casino table](screenshot.png)
 
 ## Play
 
@@ -12,11 +12,9 @@ Everything in the game is generated in code: the WebGPU-rendered table and cards
 
 **Locally:** download `index.html` and open it in Chrome or Edge.
 
-Try online: [Live Demo](https://seven14.github.io/Casino)
-
 The game needs a browser with **WebGPU**. It was developed and tested on Windows 11 with Chrome; recent Chrome and Edge on desktop and Android support it. Browsers without WebGPU show a message instead of the table.
 
-On a phone, the **⛶** button hides the browser bars on Android. On iPhone and iPad, use *Share → Add to Home Screen* for a full-screen app.
+On a phone, hold it sideways (the game pauses in portrait). The **⛶** button hides the browser bars on Android. On iPhone and iPad, use *Share → Add to Home Screen* for a full-screen app.
 
 ## Features
 
@@ -31,6 +29,9 @@ On a phone, the **⛶** button hides the browser bars on Android. On iPhone and 
 - **Manual capture:** you pick which table cards to take, so you can miss points just as at a real table. Turn on **Solver** in the menu to have your card take everything it can.
 - **Taunt:** a giggle when one side steals the other side's build. Can be turned off.
 - Traditional dealing, two cards at a time. A random first dealer, then the deal moves left each round.
+- **Made for phones too:** on small screens the game switches to a closer view with bigger cards and big-index card faces (a large rank in the centre, suits in the corners). Phones are played in landscape; turning the phone upright pauses the game until it's turned back.
+- **Press and hold** any face-up card, or a build, to see a large copy of it.
+- **Card faces:** Auto, Classic or Big index, and optional four-colour suits (spades black, hearts red, diamonds blue, clubs green).
 - Three felt colors and three card backs. Settings are saved in the browser.
 - **Tester feedback:** the ✉ button sends a comment, a screenshot and the full game state to a private GitHub repository. Testers don't need an account. See [Tester feedback](#tester-feedback).
 
@@ -74,6 +75,7 @@ A tie for most cards or most spades scores nothing for anyone.
 | Action | Mouse / touch | Keyboard |
 |---|---|---|
 | Choose cards to capture | Tap them | — |
+| Magnify a card or build | Press and hold it | — |
 | Play a card | Drag it from your hand onto the table | — |
 | Undo last play | ↶ Undo | Ctrl+Z |
 | Rules | Rules | R |
