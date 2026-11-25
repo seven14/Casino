@@ -8,7 +8,7 @@ Everything in the game is generated in code: the WebGPU-rendered table and cards
 
 ## Play
 
-**Online:** open the GitHub Pages link for this repository.
+**Online:** open the GitHub Pages link for this repository. [Play now](https://seven14.github.io/Casino)
 
 **Locally:** download `index.html` and open it in Chrome or Edge.
 
